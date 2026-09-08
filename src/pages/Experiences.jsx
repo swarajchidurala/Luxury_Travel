@@ -9,7 +9,7 @@ export default function Experiences() {
     <div className="experiences-page animate-fade-in">
       <div className="page-header experiences-header-bg">
         <div className="page-header-bg">
-          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=2000" alt="Wellness Retreat" />
+          <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=60&w=1600" alt="Wellness Retreat" loading="eager" />
           <div className="hero-overlay"></div>
         </div>
         <div className="container page-header-content text-light">

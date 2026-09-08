@@ -25,7 +25,7 @@ export default function Destinations() {
     <div className="destinations-page animate-fade-in">
       <div className="page-header">
         <div className="page-header-bg">
-          <img src="https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?auto=format&fit=crop&q=80&w=2000" alt="Amalfi Coast" />
+          <img src="https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?auto=format&fit=crop&q=60&w=1600" alt="Amalfi Coast" loading="eager" />
           <div className="hero-overlay"></div>
         </div>
         <div className="container page-header-content text-light">

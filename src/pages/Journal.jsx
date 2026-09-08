@@ -11,7 +11,7 @@ export default function Journal() {
     <div className="journal-page animate-fade-in">
       <div className="page-header">
         <div className="page-header-bg">
-          <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=80&w=2000" alt="Bali" />
+          <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&q=60&w=1600" alt="Bali" loading="eager" />
           <div className="hero-overlay"></div>
         </div>
         <div className="container page-header-content text-light">
