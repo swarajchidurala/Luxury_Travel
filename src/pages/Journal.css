@@ -1,0 +1,18 @@
+.journal-page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-4);
+}
+
+@media (min-width: 600px) {
+  .journal-page-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-8);
+  }
+}
+
+@media (min-width: 1024px) {
+  .journal-page-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
