@@ -7,7 +7,7 @@ import Journal from './pages/Journal';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Luxury_Travel/">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
