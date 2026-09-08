@@ -14,10 +14,10 @@ import { useInView } from '../hooks/useInView';
 import './Home.css';
 
 const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&q=60&w=1600",
-  "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&q=60&w=1600",
-  "https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?auto=format&fit=crop&q=60&w=1600",
-  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=60&w=1600"
+  "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&q=50&w=1200",
+  "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&q=50&w=1200",
+  "https://images.unsplash.com/photo-1533676802871-eca1ae998cd5?auto=format&fit=crop&q=50&w=1200",
+  "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=50&w=1200"
 ];
 
 export default function Home() {
@@ -103,7 +103,7 @@ export default function Home() {
             </button>
           </div>
           <div className="intro-image-wrap slide-up-img">
-            <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&q=80&w=800" alt="Serene view" className="intro-img" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&q=50&w=600" alt="Serene view" className="intro-img" loading="lazy" />
           </div>
         </div>
       </section>
@@ -153,7 +153,7 @@ export default function Home() {
       <section className={`featured-journey section bg-dark scroll-anim-section ${isJourneyInView ? 'is-visible' : ''}`} ref={journeyRef}>
         <div className="container journey-grid">
           <div className="journey-image-wrap slide-up-img">
-            <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=1200" alt="Aegean Sea" className="journey-img" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=50&w=800" alt="Aegean Sea" className="journey-img" loading="lazy" />
           </div>
           <div className="journey-content text-light fade-in-up delay-1">
             <span className="text-label">Featured Journey</span>
